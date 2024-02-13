@@ -1,0 +1,81 @@
+@charset "UTF-8";
+*{
+   margin: 0px;
+   padding: 0px;
+
+
+}
+
+body {
+    background-color: #c5ebd6;
+    font-family: var(--fonte-padrao);
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(imagens/Capa_sd.jpg);
+    
+    
+}   
+ .text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+ }
+ .more {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+ }
+ .nav-link{
+    flex: 1;
+    text-align: right;
+ }
+.nav-link ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: 8px 12px;
+    position: relative;
+}
+
+ .nav-link ul li a{ 
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+
+ }
+ .nav-link ul li a::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: #55DDEF;
+    display: block;
+    margin: auto;
+    transition: 0,2s;
+
+
+ }
+ .logo {
+   position: absolute;
+   top: -30px;
+ }
+ footer {
+   width: 100%;
+   text-align: center;
+  
+ }
+
+    
+ 
