@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* #c5ebd6
+   #83e1ad 
+   #3ddc84
+   #2fa866
+   #1a5c37
+   #063d06
+*/
+:root {
+    --cor0:#c5ebd6;
+    --cor1:#83e1ad;
+    --cor2:#3ddc84;
+    --cor3:#2fa866;
+    --cor4:#1a5c37;
+    --cor5:#063d06;
+    --fonte-padrao:Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body {
+    min-height: 100vh;
+    background-color:var(--cor0);
+    font-family: var(--fonte-padrao); 
+
+}
+header{
+    background: linear-gradient(to bottom,var(--cor3), var(--cor5));
+    min-height: 100px;
+    text-align: center;
+    padding-top: 40px;
+}
+nav{
+    background-color: var(--cor1);
+    padding: 10px;
+}
+
+section{
+    
+    background-color: var(--cor4);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+article{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+}
+
+footer{
+    clear: both;background-color: var(--cor0);
+    color: blue;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+}
